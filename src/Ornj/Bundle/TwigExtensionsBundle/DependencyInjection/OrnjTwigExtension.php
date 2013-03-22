@@ -1,6 +1,6 @@
 <?php
 
-namespace Ornj\Bundle\TwigBundle\DependencyInjection;
+namespace Ornj\Bundle\TwigExtensionsBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

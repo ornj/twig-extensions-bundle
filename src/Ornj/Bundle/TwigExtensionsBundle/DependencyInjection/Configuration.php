@@ -1,6 +1,6 @@
 <?php
 
-namespace Ornj\Bundle\TwigBundle\DependencyInjection;
+namespace Ornj\Bundle\TwigExtensionsBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

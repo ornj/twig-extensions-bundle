@@ -1,5 +1,5 @@
 {
-    "name": "ornj/twig-bundle",
+    "name": "ornj/twig-extensions-bundle",
     "description": "Provides helpful Twig extensions for Symfony2",
     "keywords": ["twig", "extension"],
     "homepage": "http://github.com/ornj/twig-bundle",
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-0": { 
-            "TwigBundle": "src/"
+            "TwigExtensionsBundle": "src/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ornj\Bundle\TwigBundle\Twig\Pinterest;
+namespace Ornj\Bundle\TwigExtensionsBundle\Twig\Pinterest;
 
 class ShareExtension extends \Twig_Extension
 {

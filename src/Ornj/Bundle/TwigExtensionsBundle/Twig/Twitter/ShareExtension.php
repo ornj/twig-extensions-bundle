@@ -1,6 +1,6 @@
 <?php
 
-namespace Ornj\Bundle\TwigBundle\Twig\Twitter;
+namespace Ornj\Bundle\TwigExtensionsBundle\Twig\Twitter;
 
 class ShareExtension extends \Twig_Extension
 {

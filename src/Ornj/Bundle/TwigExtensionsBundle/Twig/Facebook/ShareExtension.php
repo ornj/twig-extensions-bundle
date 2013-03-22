@@ -1,6 +1,6 @@
 <?php
 
-namespace Ornj\Bundle\TwigBundle\Twig\Facebook;
+namespace Ornj\Bundle\TwigExtensionsBundle\Twig\Facebook;
 
 class ShareExtension extends \Twig_Extension
 {

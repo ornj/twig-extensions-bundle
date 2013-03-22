@@ -1,4 +1,4 @@
-## OrnjTwigBundle
+## OrnjTwigExtensionsBundle
 
 This Symfony2 bundle contains useful Twig extensions commonly used on web sites.
 

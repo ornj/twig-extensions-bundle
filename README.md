@@ -1,4 +1,4 @@
-twig-bundle
+twig-extensions-bundle
 ===========
 
 Helpful Twig extensions for the Symfony2 framework

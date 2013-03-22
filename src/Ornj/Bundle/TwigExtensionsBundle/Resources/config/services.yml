@@ -1,7 +1,7 @@
 parameters:
-    ornj_twig.twitter.share.class:   Ornj\Bundle\TwigBundle\Twig\Twitter\ShareExtension
-    ornj_twig.facebook.share.class:  Ornj\Bundle\TwigBundle\Twig\Facebook\ShareExtension
-    ornj_twig.pinterest.share.class: Ornj\Bundle\TwigBundle\Twig\Pinterest\ShareExtension
+    ornj_twig.twitter.share.class:   Ornj\Bundle\TwigExtensionsBundle\Twig\Twitter\ShareExtension
+    ornj_twig.facebook.share.class:  Ornj\Bundle\TwigExtensionsBundle\Twig\Facebook\ShareExtension
+    ornj_twig.pinterest.share.class: Ornj\Bundle\TwigExtensionsBundle\Twig\Pinterest\ShareExtension
 
 services:
     ornj_twig.twitter.share:
