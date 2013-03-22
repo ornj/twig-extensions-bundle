@@ -1,7 +1,6 @@
-twig-bundle
-===========
+## OrnjTwigBundle
 
-Helpful Twig extensions for the Symfony2 framework
+This Symfony2 bundle contains useful Twig extensions commonly used on web sites.
 
 ### To Do
 

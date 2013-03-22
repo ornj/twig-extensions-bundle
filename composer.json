@@ -1,0 +1,30 @@
+{
+    "name": "ornj/twig-bundle",
+    "description": "Provides helpful Twig extensions for Symfony2",
+    "keywords": ["twig", "extension"],
+    "homepage": "http://github.com/ornj/twig-bundle",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephen Hurwitz",
+            "email": "steve@stevehurwitz.com",
+            "homepage": "http://stevehurwitz.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/twig-bundle": "~2.1",
+    },
+    "require-dev": {
+        
+    },
+    "suggest": {
+        
+    },
+    "autoload": {
+        "psr-0": { 
+            "TwigBundle": "src/"
+        }
+    }
+}

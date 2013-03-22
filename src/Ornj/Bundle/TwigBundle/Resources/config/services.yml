@@ -1,0 +1,21 @@
+parameters:
+    ornj_twig.twitter.share.class:   Ornj\Bundle\TwigBundle\Twig\Twitter\ShareExtension
+    ornj_twig.facebook.share.class:  Ornj\Bundle\TwigBundle\Twig\Facebook\ShareExtension
+    ornj_twig.pinterest.share.class: Ornj\Bundle\TwigBundle\Twig\Pinterest\ShareExtension
+
+services:
+    ornj_twig.twitter.share:
+        class: %ornj_twig.twitter.share.class%
+        tags:
+            - { name: twig.extension }
+
+    ornj_twig.facebook.share:
+        class: %ornj_twig.facebook.share.class%
+        arguments: [ %facebook_app_id% ]
+        tags:
+            - { name: twig.extension }
+
+    ornj_twig.pinterest.share:
+        class: %ornj_twig.pinterest.share.class%
+        tags:
+            - { name: twig.extension }
