@@ -27,6 +27,5 @@
             "Ornj\\Bundle\\TwigExtensionsBundle": "src/"
         }
     },
-    "target-dir": "Ornj/Bundle/TwigExtensionsBundle",
     "minimum-stability": "dev"
 }
