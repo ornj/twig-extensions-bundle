@@ -24,7 +24,9 @@
     },
     "autoload": {
         "psr-0": { 
-            "TwigExtensionsBundle": "src/"
+            "Ornj\\Bundle\\TwigExtensionsBundle": "src/"
         }
-    }
+    },
+    "target-dir": "Ornj/Bundle/TwigExtensionsBundle",
+    "minimum-stability": "dev"
 }

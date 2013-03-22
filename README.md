@@ -39,6 +39,6 @@ Generates a url for sharing the current page on Pinterest. Accepts the following
 {{ url('route', { id: entity.id }) | pinterest_share('http://example.com/images/img.jpg', 'description') }}
 ```
 
-### To Do
+## To Do
 
 1.  Make Facebook app id paramater a config setting instead of a parameter in parameters.yml
