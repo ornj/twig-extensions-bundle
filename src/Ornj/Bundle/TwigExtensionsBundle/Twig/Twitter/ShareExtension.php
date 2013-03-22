@@ -18,7 +18,7 @@ class ShareExtension extends \Twig_Extension
      * @param string $message
      * @return string
      */
-    public function buildUrl($url, $message)
+    public function buildUrl($url, $message = null)
     {
         return '//twitter.com/share?text=' . urlencode($message) . '&url=' . $url;
     }
