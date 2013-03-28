@@ -4,6 +4,27 @@ twig-extensions-bundle
 This bundle contains helpful Twig extensions for the Symfony2 framework. These extensions provide simple, front end 
 functionality that is often times present on web pages.
 
+## Installation
+Install this bundle in your Symfony2 project by adding OrnjTwigExtensionsBundle tto your `composer.json`.
+
+```json
+{
+    "require": {
+        "ornj/twig-extensions-bundle": "dev-master"
+    }
+}
+```
+
+After running updating composer, register the bundle in `app/AppKernel.php`.
+
+```php
+ $bundles = array(
+    // ...
+    new Ornj\Bundle\TwigExtensionsBundle\OrnjTwigExtensionsBundle(),
+ );
+```
+
+
 ## Included Extensions
 
 #### is_external
