@@ -39,7 +39,7 @@ class ShareExtension extends \Twig_Extension
             'name'          => $name,
             'caption'       => $caption,
             'description'   => $description,
-            'redirect_url'  => $redirect,
+            'redirect_uri'  => $redirect,
         );
 
         return $this->dialog . http_build_query($params);
