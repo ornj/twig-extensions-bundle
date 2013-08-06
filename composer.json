@@ -4,7 +4,6 @@
     "description": "Provides helpful Twig extensions for Symfony2",
     "keywords": ["twig", "extension"],
     "homepage": "http://github.com/ornj/twig-bundle",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
